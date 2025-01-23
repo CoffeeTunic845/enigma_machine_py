@@ -241,7 +241,7 @@ b2 = Button(fenetre, text="clear list", width=10, command=clear, background='whi
 b2.pack(padx=5, pady=5)
 
 #credits
-credits = Label(fenetre, text = "coded with <3 by omnitrogen", background='white')
+credits = Label(fenetre, text = "Coded by G. Voicehovskis", background='white')
 credits.pack(side = BOTTOM, padx=10, pady=10)
 
 #quit_button
