@@ -1,3 +1,6 @@
+import os
+os.system('cls')
+print("\n")
 #!/usr/bin/python3
 #enigma-graphical-user-interface-version
 
