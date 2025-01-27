@@ -1,2 +1,2 @@
 # enigma_machine_py
- The Enigma machine is a cipher device developed and used in the early- to mid-20th century to protect commercial, diplomatic, and military communication. It was employed extensively by Nazi Germany during World War II, in all branches of the German military. The Enigma machine was considered so secure that it was used to encipher the most top-secret messages.
+Enigma mašīna ir šifrēšanas ierīce, kas izstrādāta un izmantota 20. gadsimta sākumā, lai aizsargātu komerciālos, diplomātiskos un militāros sakarus. Otrā pasaules kara laikā to plaši izmantoja nacistiskā Vācija visās savas armijas nozarēs. Enigma mašīna tika uzskatīta par tik drošu, ka to izmantoja īpaši slepeno ziņojumu šifrēšanai.
