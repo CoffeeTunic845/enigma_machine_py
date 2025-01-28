@@ -32,36 +32,36 @@ spinbox = Spinbox(frameRotor, values = ("rotor1=[J,G,D,Q,O,X,U,S,C,A,M,I,F,R,V,T
 "rotor2=[N,T,Z,P,S,F,B,O,K,M,W,R,C,J,D,I,V,L,A,E,Y,U,X,H,G,Q]",
 "rotor3=[J,V,I,U,B,H,T,C,D,Y,A,K,E,Q,Z,P,O,S,G,X,N,R,M,W,F,L]"), textvariable=var4, width=44)
 var4.set("rotor1=[J,G,D,Q,O,X,U,S,C,A,M,I,F,R,V,T,P,N,E,W,K,B,L,Z,Y,H]")
-# spinbox.grid(row=0, column=1)
+spinbox.grid(row=0, column=1)
 
 var5 = StringVar()
 spinbox = Spinbox(frameRotor, values = ("rotor1=[J,G,D,Q,O,X,U,S,C,A,M,I,F,R,V,T,P,N,E,W,K,B,L,Z,Y,H]",
 "rotor2=[N,T,Z,P,S,F,B,O,K,M,W,R,C,J,D,I,V,L,A,E,Y,U,X,H,G,Q]",
 "rotor3=[J,V,I,U,B,H,T,C,D,Y,A,K,E,Q,Z,P,O,S,G,X,N,R,M,W,F,L]"), textvariable=var5, width=44)
 var5.set("rotor2=[N,T,Z,P,S,F,B,O,K,M,W,R,C,J,D,I,V,L,A,E,Y,U,X,H,G,Q]")
-# spinbox.grid(row=1, column=1)
+spinbox.grid(row=1, column=1)
 
 var6 = StringVar()
 spinbox = Spinbox(frameRotor, values = ("rotor1=[J,G,D,Q,O,X,U,S,C,A,M,I,F,R,V,T,P,N,E,W,K,B,L,Z,Y,H]",
 "rotor2=[N,T,Z,P,S,F,B,O,K,M,W,R,C,J,D,I,V,L,A,E,Y,U,X,H,G,Q]",
 "rotor3=[J,V,I,U,B,H,T,C,D,Y,A,K,E,Q,Z,P,O,S,G,X,N,R,M,W,F,L]"), textvariable=var6, width=44)
 var6.set("rotor3=[J,V,I,U,B,H,T,C,D,Y,A,K,E,Q,Z,P,O,S,G,X,N,R,M,W,F,L]")
-# spinbox.grid(row=2, column=1)
+spinbox.grid(row=2, column=1)
 
 var7 = StringVar()
 spinbox = Spinbox(frameRotor, values = ("reflec=[Y,R,U,H,Q,S,L,D,P,X,N,G,O,K,M,I,E,B,F,Z,C,W,V,J,A,T]"), textvariable=var7, width=44)
 var7.set("reflec=[Y,R,U,H,Q,S,L,D,P,X,N,G,O,K,M,I,E,B,F,Z,C,W,V,J,A,T]")
-# spinbox.grid(row=3, column=1)
+spinbox.grid(row=3, column=1)
 
-# Slēpt rotoru un reflektora etiķetes (tikai tehniski nepieciešami, bet nerāda lietotājam)
-# rotorn1 = Label(frameRotor, text='Slot n°=1:', padx=10, pady=5, background='#333333', fg='white')
-# rotorn1.grid(row=0, column=0)
-# rotorn2 = Label(frameRotor, text='Slot n°=2:', padx=10, pady=5, background='#333333', fg='white')
-# rotorn2.grid(row=1, column=0)
-# rotorn3 = Label(frameRotor, text='Slot n°=3:', padx=10, pady=5, background='#333333', fg='white')
-# rotorn3.grid(row=2, column=0)
-# reflectorn = Label(frameRotor, text='Reflector:', padx=10, pady=5, background='#333333', fg='white')
-# reflectorn.grid(row=3, column=0)
+# Rotori un reflektors vizuāli
+rotorn1 = Label(frameRotor, text='Slot n°=1:', padx=10, pady=5, background='#333333', fg='white')
+rotorn1.grid(row=0, column=0)
+rotorn2 = Label(frameRotor, text='Slot n°=2:', padx=10, pady=5, background='#333333', fg='white')
+rotorn2.grid(row=1, column=0)
+rotorn3 = Label(frameRotor, text='Slot n°=3:', padx=10, pady=5, background='#333333', fg='white')
+rotorn3.grid(row=2, column=0)
+reflectorn = Label(frameRotor, text='Reflector:', padx=10, pady=5, background='#333333', fg='white')
+reflectorn.grid(row=3, column=0)
 
 frameRotor.pack()
 
