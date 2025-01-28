@@ -19,7 +19,7 @@ Label(fenetre, image=image, background='#333333').pack(padx=10, pady=10, side=TO
 
 # palīgpogas funkcionalitāte
 def help():
-    showinfo("Enigma Mašīnas Ātrais Starts", "Sveiki, pasaule!\n\nŠī ir ātrā apmācība, kā lietot šo aplikāciju!\n\n1. Izvēlieties rotoru secību.\n2. Iestatiet rotoru pozīcijas.\n3. Ievadiet ziņu un šifrējiet to, nospiežot Enter!\n\nJūs tikko šifrējāt savu pirmo Enigma ziņu!\n\nLai jautri šifrējas!")
+    showinfo("Enigma Mašīnas Ātrais Starts", "Šī ir ātrā apmācība, kā lietot šo aplikāciju!\n\n1. Izvēlieties rotoru secību.\n2. Iestatiet rotoru pozīcijas.\n3. Ievadiet ziņu un šifrējiet to, nospiežot Enter!\n\nJūs tikko šifrējāt savu pirmo Enigma ziņu!")
 helpButton = Button(fenetre, text ="Palīdzība! Ātrais Starts", command = help, background='#333333', fg='white')
 helpButton.pack(padx=5, pady=5)
 
@@ -246,9 +246,6 @@ b2.pack(padx=5, pady=5)
 credits = Label(fenetre, text="Autors: G. Voicehovskis", background='#333333', fg='white')
 credits.pack(side=BOTTOM, padx=10, pady=10)
 
-# poga loga aizvēršanai
-quitButton = Button(fenetre, text="Iziet", width=10, command=fenetre.quit, background='#333333', fg='white')
-quitButton.pack(side=BOTTOM)
 
 # galvenā loga palaišana
 mainloop()
